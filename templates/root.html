@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/style.css') }}">
     <title>Root</title>
 </head>
 <body>
     <div class="msg_central">
         <h1>Usuário, Seja bem vindo a raiz do servidor Flask 😎😊</h1>
-        <h3>Qual rota deseja acessar?</h3>
+        <br>
+        <h2>Rotas de acesso:</h2>
+        <br>
+        <ul>
+            <li>Raiz(/)</li>
+        </ul>
     </div>
 </body>
 </html>

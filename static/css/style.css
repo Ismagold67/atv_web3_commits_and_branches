@@ -11,6 +11,9 @@ body {
     flex-direction: column;
 }
 
-/* .msg_central {
-
-} */
+.msg_central {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+}
